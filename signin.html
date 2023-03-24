@@ -1,0 +1,139 @@
+<html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <div class="column indigo lighten-4">
+
+        <!--Navbar-->
+        <nav>
+
+          <div class="nav-wrapper">
+              
+
+          <div class="nav-wrapper indigo lighten-2 center-align">
+              <a href="#!" class="brand-logo center" src="assets/img/logomental.png">
+              <img class="responsive-img center image-logo" src="assets/img/logomental.png">
+            </a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">apps</i></a>
+              <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="index.html">SIGN IN</a></li>
+              <li><a href="gallery.html">REGISTRASI</a></li>
+
+              </ul>
+          </div>
+      </nav>
+      
+      <ul class="sidenav indigo lighten-4 center-align" id="mobile-demo">
+          <div class="row">
+              <img src="assets/img/logomental.png" class="responsive-img center">
+          </div>
+          <li><a class="subheader"><span class="black-text">hello, mental health fighter</span></a></li>
+          <li><a class="waves-effect" href="index.html"><span class="black-text">HOME</span></a></li>
+          <li><a class="waves-effect" href="gallery.html"><span class="black-text">GALLERY</span></a></li>
+          <li><a class="waves-effect" href="signin.html"><span class="black-text">SIGN IN</span></a></li>
+          <li><a class="waves-effect" href="register.html"><span class="black-text">REGISTER</span></a></li>
+
+      </ul>
+
+
+        <!--Sign in-->
+        <div class="column">
+        <div class="container">
+
+            
+                <div class="card-panel" style="width:50%;margin-left:auto;margin-right:auto;
+                                               margin-top:3em;margin-bottom:3em;">
+                    <form class="login-form" action="" method="POST">
+                      <div class="row">
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">mail_outline</i>
+                          <input class="validate" id="email" name="email" type="email" required>
+                          <label for="email" data-error="wrong" data-success="right">Email</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">lock_outline</i>
+                          <input id="password" name="password" type="password" required>
+                          <label for="password">Password</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <button type="submit" class="btn waves-effect waves-light col s12 indigo lighten-3" 
+                                  name="submit">
+                            <i class="material-icons">unlock</i> Login &nbsp;&nbsp;&nbsp;&nbsp;
+                          </button>
+                        </div>
+                        <div class="input-field col s12">
+                          <a href="register.html" class="btn waves-effect waves-light col s12 indigo lighten-3">
+                                  Register</a>
+                        </div>
+                      </div>
+      
+                    </form>
+                </div>
+        </div>
+        </div>
+
+    
+
+        <!--Footer-->
+        <footer class="page-footer indigo lighten-2">
+            <div class="container">
+                <div class="row">
+                <div class="col l6 s12">
+                    <p class="amber-text text-lighten-4">Hubungi kami, sayangi hidupmu :)</p>
+                    <p class="amber-text text-lighten-4">kami ada untuk konsultasi online dan offline :)</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <p class="amber-text text-lighten-4">telepon :</p>
+                    <ul>
+                    <li><a class="amber-text text-lighten-4" href="#!">021 1234567</a></li>
+                    <li><a class="amber-text text-lighten-4" href="#!">021 2121212</a></li>
+                    <li><a class="amber-text text-lighten-4" href="#!">021 4545123</a></li>
+                    <li><a class="amber-text text-lighten-4" href="#!">021 7878987</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright amber-text text-lighten-4">
+                <div class="container">
+                © 2014 Copyright Text
+                <a class="amber-text text-lighten-4" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>    
+
+
+
+
+    </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="assets/js/jquery3.6.2.js"></script>
+      <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+            $('.slider').slider();
+            $('.parallax').parallax();
+            $('.materialboxed').materialbox();
+            $('.sidenav').sidenav();
+        });
+      </script>
+
+
+    </body>
+  </html>
